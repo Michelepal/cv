@@ -42,6 +42,10 @@ h2 {
     line-height: 0.8;
 }
 
+h6 {
+    margin:5px;
+}
+
 .text-justify {
     text-align: justify;
 }
