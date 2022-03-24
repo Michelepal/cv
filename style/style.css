@@ -6,7 +6,7 @@
 
 body {
     background-color: gainsboro;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
 
 }
 
@@ -20,6 +20,9 @@ header {
 a {
     text-decoration: none;
     color: blueviolet;
+}
+
+header a {
     margin-left: 20px;
 }
 
@@ -88,18 +91,6 @@ textarea {
 footer {
     border-top: 2px dotted rgb(119, 116, 116);
     
-}
-
-footer a {
-    margin: 0;
-}
-
-#contenutofooter {
-
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 5px;
-    gap: 80px;
 }
 
 .footercopy {
