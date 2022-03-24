@@ -76,10 +76,27 @@ textarea {
     resize: none;
 }
 
+.btn {
+    border: 1px solid black;
+    color: blueviolet;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+#tornasu {
+    width: 60px;
+    position: fixed;
+    bottom: 150px;
+    right: 2%;
+}
+
 #piedipagina {
     position: fixed;
     width: 100%;
-    height: fit-content;
+    max-height: fit-content;
     top: auto;
     right: 0;
     bottom: 0;
@@ -103,7 +120,19 @@ footer {
 
 @media only screen and (max-width: 768px) {
 
+    body {
+        margin-bottom: 250px;
+    }
+
     #foto {
         position: inherit;
     }
+
+    #tornasu {
+        bottom: 100px;
+        right: 3%;
+        z-index: 2;
+    }
+    
 }
+
