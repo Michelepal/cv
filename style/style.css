@@ -29,8 +29,20 @@ a {
     border: 3px solid green;
 }
 
+#foto {
+    position: relative;
+    left: 70px;
+    margin-right: 10px;
+}
+
 
 h1, h2 {
     line-height: 0.8;
 }
 
+@media only screen and (max-width: 768px) {
+
+    #foto {
+        position: inherit;
+    }
+}
