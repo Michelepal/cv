@@ -44,6 +44,20 @@ h1, h2 {
     text-align: justify;
 }
 
+#mainleft {
+    background-image: url("../img/Platone-1.jpg");
+}
+
+#mainright {
+    background-image: url("../img/Aristotele.jpg");
+
+}
+
+#mainleft, #mainright {
+    background-size: contain;
+}
+
+
 @media only screen and (max-width: 768px) {
 
     #foto {
