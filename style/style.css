@@ -80,7 +80,7 @@ textarea {
     border: 1px solid black;
     color: blueviolet;
     width: 40%;
-    margin: 0 auto;
+    margin: 10px;
 }
 
 .btn:hover {
