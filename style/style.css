@@ -79,6 +79,8 @@ textarea {
 .btn {
     border: 1px solid black;
     color: blueviolet;
+    width: 40%;
+    margin: 0 auto;
 }
 
 .btn:hover {
