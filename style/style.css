@@ -35,15 +35,21 @@ header a {
 
 #foto,
 .capitello {
-    max-width: 50%;
     border-radius: 60%;
     border: 3px solid green;
+}
+
+.capitello, #foto {
+
+    max-width: 100px;
+
 }
 
 #foto {
     position: relative;
     left: 70px;
     margin-right: 10px;
+   
 }
 
 
@@ -135,7 +141,7 @@ footer {
 
     #foto {
         position: inherit;
-        min-width: 70%;
+       
     }
 
     #tornasu {
