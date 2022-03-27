@@ -7,7 +7,6 @@
 body {
     background-color: gainsboro;
     margin-bottom: 200px;
-
 }
 
 header {
@@ -112,10 +111,9 @@ textarea {
 #piedipagina {
     position: fixed;
     width: 100%;
-    min-height: fit-content;
     top: auto;
     right: 0;
-    bottom: 0;
+    bottom: 0px;
     left: 0;
     background-color: rgb(199, 194, 194);
 
@@ -129,7 +127,7 @@ footer {
 .footercopy {
     text-align: center;
     background-color: rgb(170, 165, 165);
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
@@ -160,14 +158,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 578px) {
 
-    #piedipagina {
-
-       min-height: 25vh;
-    }
-
-}
 
 
 
