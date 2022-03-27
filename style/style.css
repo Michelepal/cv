@@ -156,6 +156,10 @@ footer {
     #tornasu {
         bottom: 50px;
     }
+
+    span {
+        display: none;
+    }
 }
 
 
