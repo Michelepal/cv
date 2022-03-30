@@ -6,13 +6,48 @@ function sceltaCategoria(n) {
     let cat4 = document.getElementById("cat4");
     let cat5 = document.getElementById("cat5");
     let btn = document.getElementsByClassName("scelta");
-    switch (n) {
-        case 1:
-        case 2:
-        case 3:
-        case 4:
-        case 5:
-        default:
 
+    if (n == 1) {
+        if (cat1.className != "d-block") {
+            cat1.className = "d-block";
+            cat2.className = "d-none";
+            cat3.className = "d-none";
+            cat4.className = "d-none";
+            cat5.className = "d-none";
+        } else cat1.className = "d-none";
+    } else if (n == 2) {
+        if (cat2.className != "d-block") {
+            cat1.className = "d-none";
+            cat2.className = "d-block";
+            cat3.className = "d-none";
+            cat4.className = "d-none";
+            cat5.className = "d-none";
+        } else cat2.className = "d-none";
+    } else if (n == 3) {
+        if (cat3.className != "d-block") {
+            cat1.className = "d-none";
+            cat2.className = "d-none";
+            cat3.className = "d-block";
+            cat4.className = "d-none";
+            cat5.className = "d-none";
+        } else cat3.className = "d-none";
+    } else if (n == 4) {
+        if (cat4.className != "d-block") {
+            cat1.className = "d-none";
+            cat2.className = "d-none";
+            cat3.className = "d-none";
+            cat4.className = "d-block";
+            cat5.className = "d-none";
+        } else cat4.className = "d-none";
+    } else if (n == 5) {
+        if (cat5.className != "d-block") {
+            cat1.className = "d-none";
+            cat2.className = "d-none";
+            cat3.className = "d-none";
+            cat4.className = "d-none";
+            cat5.className = "d-block";
+        } else cat5.className = "d-none";
     }
+
 }
+
