@@ -51,6 +51,16 @@ header a {
    
 }
 
+li.list-group-item {
+
+    padding: 0;
+
+}
+
+.listacategorie {
+
+    max-width: fit-content;
+}
 
 h1,
 h2 {
