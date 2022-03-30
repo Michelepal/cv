@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./style/style.css?ts=<?=time()?>&quot">
     <link rel="preload" as="script" href="https://cdn.iubenda.com/cs/iubenda_cs.js" />
     <link rel="preload" as="script" href="https://cdn.iubenda.com/cs/tcf/stub-v2.js" />
-    <script src="https://cdn.iubenda.com/cs/tcf/stub-v2.js"></script>
+    <!-- <script src="https://cdn.iubenda.com/cs/tcf/stub-v2.js"></script>
     <script>
         (_iub = self._iub || []).csConfiguration = {
             cookiePolicyId: 96625157,
@@ -45,7 +45,7 @@
             },
         }
     </script>
-    <script async src="https://cdn.iubenda.com/cs/iubenda_cs.js"></script>
+    <script async src="https://cdn.iubenda.com/cs/iubenda_cs.js"></script> -->
 </head>
 
 <body>
@@ -100,25 +100,28 @@
     </header>
     <main>
         <div class="container">
+            <div class="container pt-2 text-center">
+                <h3>Titolo Blog</h3>
+            </div>
             <div class="row mt-4">
                 <div class="col-md-2">
                     <section id="categorie">
                         <div class="listacategorie container border border-dark p-0">
                             <ul class="list-group flex-row flex-md-column">
                                 <li class="list-group-item">
-                                    <button type="button" class="btn btn-outline btn-block w-auto m-0 responsive-width" onclick="sceltaCategoria()">Categoria 1</button>
+                                    <button type="button" class="scelta btn btn-outline btn-block w-auto m-0 responsive-width" onclick="sceltaCategoria(1)">Categoria 1</button>
                                 </li>
                                 <li class="list-group-item">
-                                    <button type="button" class="btn btn-outline btn-block w-auto m-0 responsive-width" onclick="sceltaCategoria()">Categoria 2</button>
+                                    <button type="button" class="scelta btn btn-outline btn-block w-auto m-0 responsive-width" onclick="sceltaCategoria(2)">Categoria 2</button>
                                 </li>
                                 <li class="list-group-item">
-                                    <button type="button" class="btn btn-outline btn-block w-auto m-0 responsive-width" onclick="sceltaCategoria()">Categoria 3</button>
+                                    <button type="button" class="scelta btn btn-outline btn-block w-auto m-0 responsive-width" onclick="sceltaCategoria(3)">Categoria 3</button>
                                 </li>
                                 <li class="list-group-item">
-                                    <button type="button" class="btn btn-outline btn-block w-auto m-0 responsive-width" onclick="sceltaCategoria()">Categoria 4</button>
+                                    <button type="button" class="scelta btn btn-outline btn-block w-auto m-0 responsive-width" onclick="sceltaCategoria(4)">Categoria 4</button>
                                 </li>
                                 <li class="list-group-item">
-                                    <button type="button" class="btn btn-outline btn-block w-auto m-0 responsive-width" onclick="sceltaCategoria()">Categoria 5</button>
+                                    <button type="button" class="scelta btn btn-outline btn-block w-auto m-0 responsive-width" onclick="sceltaCategoria(5)">Categoria 5</button>
                                 </li>
                             </ul>
                         </div>
@@ -235,5 +238,5 @@
         </div>
     </footer>
 </body>
-
+<script src="./js/blog.js"></script>
 </html>
